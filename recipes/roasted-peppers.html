@@ -5,46 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Roasted Pepper</title>
 </head>
 
 <body>
+    <div class="fixed-top">
+        <div class="alert alert-warning" role="alert">
+            Not a production site, The Odin Project course work for HTML structuring, CSS styling --- see below for
+            credits!
+        </div>
+    </div>
+
+    <header class="header">
+        <h1>Roasted Red Pepper</h1>
+        <h2>How to Roast Peppers</h2>
+    </header>
+
     <main>
-        <div>
-            <h1>Roasted Red Pepper</h1>
-        </div>
-        <div>
-            <img src="../images-recipes/roasted-peppers.webp">
-        </div>
-        <div>
-            <h2>How to Roast Peppers</h2>
-            <h3>Roast in oven until the skin blisters</h3>
-            <p><b>There are plenty of delicious ways to put these easy roasted peppers to good use!</b></p>
-            <p>Toss them in olive oil and balsamic vinegar for a quick and easy appetizer.
+        <section class="flex2col">
+            <div class="left-margin300">
+                <img src="../images-recipes/roasted-peppers.webp" width="600px" height="400px" alt="roasted peppers">
+            </div>
+            <div class="left-margin200">
+                <h3>Roast in oven until the skin blisters</h3>
+                <h4><b>There are plenty of delicious ways to put these easy roasted peppers to good use!</b></h4>
+            </div>
+            </section>
+            <p class="text-center top-bot-margin40">Toss them in olive oil and balsamic vinegar for a quick and easy
+                appetizer.
                 Stir them in meaty pasta sauces for a fun burst of flavor.
-                Fold them into scrambles eggs or omelets for a pop of nutrient-rich flavor and color.</p>
-        </div>
-        <div>
-            <h3>Ingredients</h3>
-            <ul>
-                <li>Medium sized bell peppers</li>
-                <li>2 tablespoons olive oil</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Steps</h3>
-            <ol>
-                <li>Preheat oven to 500 degrees</li>
-                <li>Coat baking dish with olive oil</li>
-                <li>Roast in oven, 30 - 40 minutes, until skin blisters</li>
-                <li>Remove from oven and cover with plastic for 20 - 30 minutes</li>
-                <li>Peel and discard skins</li>
-            </ol>
-        </div>
+                Fold them into scrambles eggs or omelets for a pop of nutrient-rich flavor and color.
+            </p>
+            <section class="flex-align-top">
+            <div>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>Medium sized bell peppers</li>
+                    <li>2 tablespoons olive oil</li>
+                </ul>
+                </div>
+                <div>
+                    <h3>Steps</h3>
+                    <ol>
+                        <li>Preheat oven to 500 degrees</li>
+                        <li>Coat baking dish with olive oil</li>
+                        <li>Roast in oven, 30 - 40 minutes, until skin blisters</li>
+                        <li>Remove from oven and cover with plastic for 20 - 30 minutes</li>
+                        <li>Peel and discard skins</li>
+                    </ol>
+                </div>
     </main>
+    <hr>
     <footer>
-        <hr>
-        <a href="../index.html">Home</a>
+        <section class="flex-footer">
+            <div>
+                <a href="../index.html">click here for more Odin Recipes</a>
+            </div>
+            <div>
+                <p>Fitz</p>
+                <p>Attributions - Recipes & photos captured from &nbsp &nbsp
+                    <a href="https://www.allrecipes.com" class="all-recipes">All Recipes</a>
+                </p>
+            </div>
+        </section>
     </footer>
 </body>
 

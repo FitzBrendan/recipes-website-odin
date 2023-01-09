@@ -5,16 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Odin Recipes</title>
 </head>
 
 <body>
-    <header>
+    <div class="fixed-top">
+        <div class="alert alert-warning" role="alert">
+            Not a production site, The Odin Project course work for HTML structuring, CSS styling --- see below for
+            credits!
+        </div>
+    </div>
+    <header class="header">
         <h1>Odin Recipes</h1>
-        <a href="recipes/cabbage.html">Cabbage Recipe</a></br></br>
-        <a href="recipes/grilled-asparagus.html">Grilled Asparagus Recipe</a></br></br>
-        <a href="recipes/roasted-peppers.html">Roasted Peppers Recipe</a>
+        <h2>Food for thoughtful web development!</h2>
     </header>
+    <main>
+        <div class="flex2col">
+            <a class="left-margin300" href="recipes/cabbage.html">
+                <img src="../images-recipes/grilled-cabbage.webp" width="400px" height="275"
+                    alt="cabbage slices on platter">
+            </a>
+            <a class="left-margin300" href="recipes/cabbage.html">Cabbage Recipe</a></br></br>
+        </div>
+        <div class="flex2col">
+            <a class="left-margin300" href="recipes/grilled-asparagus.html">
+                <img src="../images-recipes/grilled-asparagus.webp" width="400px" height="275px"
+                    alt="grilled asparagus on platter">
+            </a>
+            <a class="left-margin300" href="recipes/grilled-asparagus.html">Grilled Asparagus Recipe</a></br></br>
+        </div>
+        <div class="flex2col">
+            <a class="left-margin300" href="recipes/roasted-peppers.html">
+                <img src="../images-recipes/roasted-peppers.webp" width="400px" height="275" alt="roasted peppers">
+            </a>
+            <a class="left-margin300" href="recipes/roasted-peppers.html">Roasted Peppers Recipe</a>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="index-footer">
+            <p>Fitz</p>
+            <p>Attributions - Recipes & photos captured from &nbsp &nbsp
+                <a href="https://www.allrecipes.com" class="all-recipes">All Recipes</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
 </body>
 
 </html>
